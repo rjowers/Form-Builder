@@ -1,26 +1,71 @@
+* {
+  border-radius: 5px; }
+
+.signup {
+  height: 100px;
+  width: 700px;
+  box-shadow: 0 0 20px black;
+  margin-left: 250px;
+  background-color: #2280C4; }
+  .signup p {
+    position: relative;
+    top: 30px;
+    font-size: 24px;
+    font-family: Helvetica Neue;
+    color: white;
+    padding-left: 40px; }
+
 .big-box {
-  border: solid;
   height: 800px;
-  width: 600px; }
+  width: 700px;
+  margin-left: 250px;
+  border: solid #C7C7C7; }
 
 .footer {
   height: 100px;
-  width: 600px;
-  border: solid; }
+  width: 600px; }
 
 .firstnamebox {
   width: 500px;
   height: 40px;
   padding-left: 20px;
   display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   position: relative; }
 
-select {
+.selectlist {
   height: 40px;
-  width: 600px; }
+  width: 525px;
+  margin-right: 200px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  position: relative;
+  margin-top: 30px; }
 
 i {
-  padding-top: 13px;
-  margin-right: 100px;
+  padding-top: 0px;
+  padding-left: 55px;
+  margin-right: 90px;
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+  margin-top: 50px; }
+
+div.footer {
+  margin-left: 250px;
+  width: 700px;
+  border-right: solid #C7C7C7;
+  border-left: solid #C7C7C7;
+  border-bottom: solid #C7C7C7;
+  background-color: #99ccff; }
+
+button {
+  position: relative;
+  top: 20px;
+  left: 40px;
+  height: 45px;
+  width: 130px;
+  background-color: #2280C4;
+  color: white;
+  border: none; }
