@@ -21,7 +21,7 @@
 
 .big-box{
 
-  height: 800px;
+  height: 1000px;
   width: 700px;
   margin-left: 250px;
   border: solid #C7C7C7;
@@ -59,7 +59,6 @@
 
 
 i{
-  padding-top: 0px;
   padding-left: 55px;
   margin-right:  90px;
   position: absolute;
@@ -86,4 +85,15 @@ button {
   background-color: #2280C4;
   color: white;
   border: none;
+}
+
+.comment {
+  height: 100px;
+  width: 500px;
+  padding-left: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 200px;
+
+
 }
