@@ -25,13 +25,17 @@ function getStuff(data){
 <option value="value4">${data[count].options[3].label}</option>
 <option value="value5">${data[count].options[4].label}</option>
 </select>
-<textarea class ="comment" placeholder ="${data[5].label}"></textarea>
+
 `
 
 $(".big-box").html(putWords);
 }
+ else if (data[count].type === "textarea") {
+           $(".big-box").append(`<div><i class = "fa ${data[count].icon}"></i>
+      <textarea class ="comment" placeholder ="${data[5].label}"></textarea>`)
+}
 
-else{
+else {
   putWords = $(".big-box").html();
   putWords +=
   `
@@ -40,6 +44,7 @@ else{
   <input class="firstnamebox" placeholder= "${data[count].label}">
 
   </input>
+
   `
 
 
